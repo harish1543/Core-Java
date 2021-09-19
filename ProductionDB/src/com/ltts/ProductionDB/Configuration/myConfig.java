@@ -9,7 +9,7 @@ public class myConfig {
 		
 		final String database = "jdbc:mysql://localhost:3306/dps_java_db";
 		final String username = "root";
-		final String pwd = "Harish@132";
+		final String pwd = "root";
 		Connection c = DriverManager.getConnection(database,username,pwd);
 		return c;
 	}
